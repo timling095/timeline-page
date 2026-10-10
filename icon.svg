@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Coral tonal palette (seed #9a4528): the tile is tone 90, the bar's history 80, its projection 70, the today line 40; dark mode swaps in 30, 40, 60 and 90. -->
+  <style>
+    .tile { fill: #ffdbd0 } .history { fill: #ffb59d } .projection { fill: #f98f6c } .today { fill: #9a4528 }
+    @media (prefers-color-scheme: dark) {
+      .tile { fill: #7b2e13 } .history { fill: #9a4528 } .projection { fill: #d97554 } .today { fill: #ffdbd0 }
+    }
+  </style>
+  <rect class="tile" width="96" height="96" rx="28"/>
+  <path class="history" d="M26 42H48V58H26A8 8 0 0 1 26 42Z"/>
+  <path class="projection" d="M48 42H70A8 8 0 0 1 70 58H48Z"/>
+  <rect class="today" x="45.5" y="28" width="5" height="46" rx="2.5"/>
+  <circle class="today" cx="48" cy="27" r="5.5"/>
+</svg>
